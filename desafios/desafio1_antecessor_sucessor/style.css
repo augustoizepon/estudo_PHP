@@ -1,0 +1,97 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #00aaff;
+  }
+  
+  form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #47e3ff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  label {
+    font-size: 1.2em;
+    color: #000000;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+  }
+  input[type="text"]{
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #00aaff;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0077ff;
+  }
+
+  /* CSS for PHP output */
+p {
+  font-size: 1.2em;
+  color: #000000;
+  margin: 10px;
+}
+
+/* Style each paragraph separately */
+p:nth-child(1) {
+  background-color: #47e3ff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+p:nth-child(2) {
+  background-color: #47e3ff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+p:nth-child(3) {
+  background-color: #47e3ff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* CSS for the button */
+button {
+  background-color: #00aaff;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  background-color: #0077ff;
+}
